@@ -10,7 +10,6 @@
     width: 1200px;
     margin:0 auto;
     margin-bottom: 50px;
-
 }
 
 .clearfix::after{
@@ -20,8 +19,13 @@
 }
 /* UTILITIES */
 
-.text-position{
- 
+.bg-green{
+    background-color: limegreen;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+    height: auto;
 }
 
 .underline-text{
@@ -30,7 +34,6 @@
 
 .pad-top{
     padding-top: 30px;
-
 }
 
 .w-50{
@@ -38,8 +41,7 @@
 }
 
 .w-30{
-    width: 30%;
-    
+    width: 30%;  
 }
 
 .w-40{
@@ -48,12 +50,11 @@
 
 .col-left{
     float: left;
-
 }
+
 .col-right{
     float: right;
     text-align: right;
-
 }
 
 ul{
@@ -62,13 +63,11 @@ ul{
 
 li{
     display: inline;
-
 }
 
 a{
     text-decoration: none;
     color: black;
-
 }
 
 .btn-light{
@@ -79,7 +78,6 @@ a{
 .btn-big{
      padding: 10px 10px;
       color: white;
-
 }
 
 .btn-pad{
@@ -104,7 +102,6 @@ a{
 
 .m-top{
     margin-top: 40px;
-
 }
 /* HEADER */
 
@@ -146,8 +143,6 @@ main{
     margin-top: 30px;
 }
 
-
-
 .spotlight-content img{
     width: auto;
     height: 500px;
@@ -161,7 +156,6 @@ h1{
 .fa-arrow-down{
     font-size: 50px;
     margin-top: 40px;
-
 }
 
 /* BUSINESS PLAN */
@@ -183,8 +177,6 @@ h1{
 
 .head-border{
     border-bottom: 1px solid lightgrey;
-
-
 }
 
 .business-plan a .btn{
@@ -236,7 +228,6 @@ h1{
      width: 600px;
      height: 500px;
      margin-top: 50px;
-     
  }
 
  .partnership{
@@ -295,6 +286,73 @@ h1{
     height: fit-content;
 }
 
-   
+/* VARI BRAND */
+
+
+
+.about-clients{
+    text-decoration: underline;
+    color: #0061FF;
+    font-weight: 600;
+}
     
- 
+ .box{
+     width: 280px;
+     height: 200px;
+ }
+
+ .yellow{
+    background-color: #FFD830;
+ }
+
+.sky-blue{
+    background: #B4D0E7;
+}
+
+ .blue{
+     background-color: #0D2481;
+ }
+
+ .magenta{
+     background-color:#D5001F
+ }
+
+.different-red{
+    background-color: #61082B
+}
+
+.light-blue{
+    background-color:#0093CE;
+   
+}
+.light-green{
+    background-color: #A2D39B;
+}
+
+ .red{
+     background-color: #FF1C1C;
+     
+ }
+.brand-pad{
+    padding:50px
+}
+
+.u-florida{
+    height: fit-content;
+}
+
+ .focused-brand{ 
+    width: 200px;
+    height: 200px;
+    padding: 0 20px;
+ }
+
+ .designit{
+     padding:0 40px
+ }
+
+ address{
+     font-style: normal;
+     margin-top: 30px;
+     padding: 0 40px;
+ }
