@@ -123,8 +123,8 @@ header{
 
 /* MAIN CONTENT */
 main{
-   background-color: lightgrey;
-    height: 500px;
+   /* background-color: lightgrey;
+    height: 500px; */
 }
 
 .spotlight{
@@ -397,6 +397,43 @@ section.brands .w-30 img{
 
 footer{
     height: 600px;
-    background-color: black
+    background-color:black;
+    color:white;
+    position: relative;
+}
+
+footer ul{
+    display: block;
+    
+   
+    
+}
+
+footer li{
+    display: block;
+    margin: 20px 0;
+    
+   
+}
+
+footer li a{
+    color: white;
+   
+}
+
+footer h4{
+    font-size: 25px;
+}
+
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.language{
+    position: relative;
+    top:  90%;
 }
 
