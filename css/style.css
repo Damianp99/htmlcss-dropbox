@@ -42,6 +42,10 @@
     width: 20%;
 }
 
+.w-5{
+    width: 5%;
+}
+
 .w-30{
     width: 30%;  
 }
@@ -57,8 +61,6 @@
 .col-left{
     float: left;
 }
-
-
 
 ul{
     display: inline;
@@ -79,7 +81,7 @@ a{
 }
 
 .btn-big{
-     padding: 10px 10px;
+     padding: 10px 15px;
       color: white;
 }
 
@@ -112,20 +114,33 @@ a{
 
 header{
     background-color: #FFF;
-    height: 80px;
-    /* position: fixed; */
+    height: 60px;
+    position: fixed;
     width: 100%;
 }
 
-.logo{
-    height: 50px;
+header li{
+    margin-right: 5%;
 }
 
-/* MAIN CONTENT */
-main{
-   /* background-color: lightgrey;
-    height: 500px; */
+.nav-position{
+    line-height: 60px;
+    margin: 0 15px;
+ }
+
+.logo-position{
+    line-height: 60px;
 }
+
+.text-position{
+    text-align: right;
+}
+
+.text-middle{
+    text-align: center;
+}
+/* MAIN CONTENT */
+
 
 .spotlight{
     height: 700px;
